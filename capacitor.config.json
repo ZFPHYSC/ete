@@ -1,0 +1,14 @@
+{
+  "appId": "com.cloudsnap.app",
+  "appName": "CloudSnap",
+  "webDir": "dist",
+  "server": {
+    "androidScheme": "https"
+  },
+  "plugins": {
+    "Camera": {
+      "photoUsageDescription": "CloudSnap needs your library so you can pick photos",
+      "saveToGallery": false
+    }
+  }
+}
